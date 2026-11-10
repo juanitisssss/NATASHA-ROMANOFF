@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+}
+
+h1{
+ color:#ff000085; 
+   font-family:Stalinist One;
+   Font-size: 7em;
+     text-align: center;
+}
+h2{
+  margin-top: 50px;
+  font-family: Science Gothic;
+  font-size: 2em;
+  text-align: center;
+  color:#ff0000;
+}
+
+h3{
+  margin-top: 50px;
+  font-family: Science Gothic;
+  font-size: 2em;
+  text-align: center;
+  color:#895a5a;
+}
+
+h5{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 6%;
+  color:#ffffff;
+}
+
+#fondoI, #fondoP{
+ background-color: #000000;
+ width: 100%;
+}
+#fondoM, #fondoC{
+color:#050505;
+}
+a{
+    color: rgb(242, 237, 237);
+    font-family:helvetica;
+    font-size: 1.5em;
+    text-decoration:none;
+  }
+
+a:hover{
+    color:#ffc0cb; 
+  }
+
+#cajita{
+  width: 100%;              
+  height: 15px;              
+  background-color: #ff0000;
+   margin-bottom:50px;
+}
+
+nav{
+  background-color: #ac0a0a;
+  width:100% ;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#fondo{
+  width: 100%;               
+  height: 200px;              
+  background-color: #cf0404;
+}
+
+#fondo2{
+width: 100%;              
+  height: 600px;              
+  background-color: #F8CAE4;
+}
+
+#fondohabi{
+  width: 100%;              
+  height: 400px;              
+  background-color: #9B0B50;
+}
+
+
+.galeria {
+    background-color: #111111;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.galeria h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.grid-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.item img:hover {
+    transform: scale(1.03);
+}
+
+.item h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+.presentacion-natasha {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px;
+    background-color: #1c1012;
+}
+
+.foto-natasha {
+    width: 35%;
+}
+
+.foto-natasha img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.texto-natasha {
+    width: 50%;
+}
+
+.texto-natasha h2 {
+    color: #c91d2b;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.texto-natasha p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: left;
+}
